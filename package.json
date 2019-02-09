@@ -4,13 +4,14 @@
   "description": "eCommerce PWA Built with NextJS and GraphCMS",
   "license": "MIT",
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "express": "^4.16.3",
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server"
   }
 }
