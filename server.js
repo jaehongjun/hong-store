@@ -10,12 +10,18 @@ app
   .then(() => {
     const server = express();
 
-    server.get("/post/:title", (req, res) => {
-      console.log(req.params.title);
-      const actualPage = "/post";
-      const queryParams = { title: req.params.title };
+    server.get("/category/:name", (req, res) => {
+      const actualPage = "/category";
+      const queryParams = { name: req.params.name };
       app.render(req, res, actualPage, queryParams);
     });
+    server.get("/product/:id", (req, res) => {
+      const actualPage = "/product";
+      console.log("//////////////////////////// ", req.params.id);
+      const queryParams = { id: req.params.id };
+      app.render(req, res, actualPage, queryParams);
+    });
+
     server.get("*", (req, res) => {
       return handle(req, res);
     });
