@@ -8,6 +8,7 @@ export const PRODUCT_FRAGMENT = gql`
     detail: subTitle
     price
     sale
+    onCart @client
     photo {
       url
     }

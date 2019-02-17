@@ -6053,6 +6053,12 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
+next-nprogress@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/next-nprogress/-/next-nprogress-1.4.0.tgz#508058dc15fd2aee406da3cc6ffc8cdf3ebabb75"
+  dependencies:
+    nprogress "^0.2.0"
+
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
@@ -6302,6 +6308,10 @@ npmlog@^4.0.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
 
 number-is-nan@^1.0.0:
   version "1.0.1"
